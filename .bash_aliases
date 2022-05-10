@@ -3,6 +3,11 @@
 # Prompt
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@ \[\033[01;34m\]\w\[\033[00m\] ($(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)): '
 
+# vscode
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+
+
 function dx() {
    docker exec -it $1 bash
 }
