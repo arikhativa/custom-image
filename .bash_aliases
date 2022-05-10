@@ -26,3 +26,7 @@ alias gco='git checkout'
 
 # github
 alias phub='git push  https://github.com/arikhativa/$(basename `git rev-parse --show-toplevel`)'
+alias pullhub='git pull  https://github.com/arikhativa/$(basename `git rev-parse --show-toplevel`)'
+
+# files
+alias myalias='code ~/.zshrc'
