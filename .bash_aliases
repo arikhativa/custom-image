@@ -23,6 +23,7 @@ alias add='git add .'
 alias cmt='git commit -m '
 alias push='git push'
 alias gco='git checkout'
+alias stt='git status'
 alias gc='git clone'
 
 # github
