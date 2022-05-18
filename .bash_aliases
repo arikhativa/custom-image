@@ -23,6 +23,7 @@ alias add='git add .'
 alias cmt='git commit -m '
 alias push='git push'
 alias gco='git checkout'
+alias gc='git clone'
 
 # github
 alias phub='git push  https://github.com/arikhativa/$(basename `git rev-parse --show-toplevel`)'
@@ -30,3 +31,8 @@ alias pullhub='git pull  https://github.com/arikhativa/$(basename `git rev-parse
 
 # files
 alias myalias='code ~/.zshrc'
+
+# Shell
+alias t='touch '
+alias c='cat '
+alias val='valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes '
