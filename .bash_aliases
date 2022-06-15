@@ -33,6 +33,10 @@ alias pullhub='git pull  https://github.com/arikhativa/$(basename `git rev-parse
 # files
 alias myalias='code ~/.zshrc'
 
+# 42
+alias norm='norminette -R CheckForbiddenSourceHeader'
+alias g='gcc -Wall -Werror -Wextra'
+
 # Shell
 alias t='touch '
 alias c='cat '
