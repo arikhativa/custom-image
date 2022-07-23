@@ -25,6 +25,7 @@ alias push='git push'
 alias gco='git checkout'
 alias stt='git status'
 alias gc='git clone'
+alias gcr='git clone --recurse-submodules'
 
 # github
 alias phub='git push  https://github.com/arikhativa/$(basename `git rev-parse --show-toplevel`)'
